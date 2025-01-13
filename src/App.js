@@ -1,12 +1,12 @@
-import './App.css';
-import ColorRenderer from './01-color-renderer/ColorRenderer';
+import './App.css'
+import DarkMode from './02-dark-mode/DarkMode'
 
 function App() {
   return (
-    <div className="App">
-      <ColorRenderer />
+    <div className='App'>
+      <DarkMode />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
